@@ -1,0 +1,2 @@
+import { Settings } from "lucide-react";import { AppShell } from "@/components/truthlens/app-shell";import { ComingSoon } from "@/components/truthlens/coming-soon";export default function Page(){return <AppShell title="Settings" description="Control your TruthLens workspace."><ComingSoon icon={Settings} title="Workspace settings are coming" description="Verification defaults, account preferences, and team controls will arrive alongside authentication in Phase 2."/></AppShell>}
+

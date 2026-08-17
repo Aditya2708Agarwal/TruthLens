@@ -1,0 +1,3 @@
+import Link from "next/link";
+import { FileQuestion } from "lucide-react";
+export default function NotFound(){return <main className="grid min-h-screen place-items-center bg-background p-6 text-center"><div><FileQuestion className="mx-auto size-10 text-primary"/><p className="mt-5 text-sm font-semibold text-primary">404</p><h1 className="mt-2 text-3xl font-semibold">Report not found</h1><p className="mt-3 text-sm text-muted-foreground">This verification report does not exist or is no longer available.</p><Link className="button button-primary mt-6 h-10 px-4" href="/analyze">Start a new analysis</Link></div></main>}

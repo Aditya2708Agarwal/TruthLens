@@ -1,0 +1,3 @@
+import { AppSidebar } from "./app-sidebar";
+export function AppShell({children,title,description,action}:{children:React.ReactNode;title:string;description:string;action?:React.ReactNode}){return <div className="min-h-screen bg-background"><AppSidebar/><main className="pt-16 lg:ml-64 lg:pt-0"><header className="border-b border-border bg-card"><div className="mx-auto flex max-w-7xl flex-col gap-4 px-5 py-6 sm:flex-row sm:items-center sm:justify-between lg:px-8"><div><h1 className="text-2xl font-semibold tracking-tight">{title}</h1><p className="mt-1 text-sm text-muted-foreground">{description}</p></div>{action}</div></header><div className="mx-auto max-w-7xl px-5 py-7 lg:px-8 lg:py-8">{children}</div></main></div>}
+
